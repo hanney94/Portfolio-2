@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.navbar-brand{
+font-family: "Protest Guerrilla", system-ui;
+font-size: 3rem;
+}
