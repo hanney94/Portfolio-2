@@ -6,8 +6,52 @@ html {
     scroll-behavior: smooth;
 }
 
+.fa-solid{
+    font-size: 2rem;
+}
+
+nav.navbar.navbar-expand-lg.fixed-top{
+    align-items: center;
+    padding: 1.5rem;
+}
+
 
 .navbar-brand{
-font-family: "Protest Guerrilla", system-ui;
-font-size: 3rem;
+    font-family: "Mukta", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
 }
+
+.nav-item {
+    font-family: "Mukta", sans-serif;
+}
+
+.nav-link {
+    padding: 1rem;
+}
+
+.navbar-toggler {
+    border: none; 
+}
+
+.fa-solid{
+    color: black;
+    font-size: 1rem;
+}
+
+.hero {
+    margin-top: 5rem;
+}
+
+.background {
+    height: 100vh;
+}
+
+.logo {
+    height: 50%;
+    width: 50%;
+}
+
+
+
+
