@@ -6,8 +6,8 @@ html {
     scroll-behavior: smooth;
 }
 
-.fa-solid{
-    font-size: 2rem;
+.fa-bars{
+    font-size: 1.5em;
     color: black;
 }
 
@@ -29,9 +29,6 @@ nav.navbar.navbar-expand-lg.fixed-top{
     font-size: 15px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-}
-
 .navbar-toggler {
     border: none;
 }
@@ -49,7 +46,7 @@ nav.navbar.navbar-expand-lg.fixed-top{
     text-align: center;
 }
 
-.hello, .about, .skills-header {
+.hello, .about, .skills-header{
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 800;
 }
@@ -82,6 +79,14 @@ nav.navbar.navbar-expand-lg.fixed-top{
     background-color:#949e88 ;
 }
 
+#section2, #section4 {
+    background-color: #f1f5ed;
+}
+
+.about {
+    margin-top: 3rem;
+}
+
 .about-me {
     display: flex;
     flex-direction: column;
@@ -91,6 +96,7 @@ nav.navbar.navbar-expand-lg.fixed-top{
     text-align: center;
     margin-top: 6rem;
 }
+
 
 .about-info-details {
     padding: 20px;
@@ -112,4 +118,30 @@ span {
     align-items: center;
     text-align: center;
     margin-top: 5rem;
+}
+
+
+
+.container-icons {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px;
+}
+
+.skill-icons{
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    color:#b2baa8;
+}
+
+.skill-title {
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: center;
+    color:black;
+    font-family: "Inter", sans-serif;
 }
