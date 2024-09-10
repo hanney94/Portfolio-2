@@ -35,6 +35,7 @@ nav.navbar.navbar-expand-lg.fixed-top{
 
 #section1 {
     margin-top: 10rem;
+    
 }
 
 .introduction {
@@ -46,7 +47,7 @@ nav.navbar.navbar-expand-lg.fixed-top{
     text-align: center;
 }
 
-.hello, .about, .skills-header{
+.hello, .about, .skills-header,.projects-heading, .contact {
     font-family: "Nanum Gothic", sans-serif;
     font-weight: 800;
 }
@@ -64,7 +65,6 @@ nav.navbar.navbar-expand-lg.fixed-top{
 
 .project-button {
     background-color: #b2baa8;
-    color:white;
     width:70%;
     border-radius: 10px;
     border: none;
@@ -72,6 +72,7 @@ nav.navbar.navbar-expand-lg.fixed-top{
     box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
     font-family: "Inter", sans-serif;
     font-weight: 800;
+    text-decoration: none;
 }
 
 .project-button:hover{
@@ -79,7 +80,16 @@ nav.navbar.navbar-expand-lg.fixed-top{
     background-color:#949e88 ;
 }
 
-#section2, #section4 {
+.sec3 {
+    text-decoration: none;
+    color: white;
+}
+.sec3:hover{
+    color: white;
+    text-decoration: none;
+}
+
+#section2, {
     background-color: #f1f5ed;
 }
 
@@ -145,3 +155,142 @@ span {
     color:black;
     font-family: "Inter", sans-serif;
 }
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.project-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.laptop {
+    width:100vw;
+}
+
+.project-title{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+.project-info {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.project-btn {
+    background-color: #b2baa8;
+    width:60%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.proj {
+    text-decoration: none;
+    color: white;
+}
+
+.proj:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.mentor {
+    text-decoration: underline;
+    color:#b2baa8;
+}
+
+.note {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+.github-link{
+    text-decoration: underline;
+    color:#b2baa8;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+label {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-family: "Inter", sans-serif;
+
+}
+
+input, textarea {
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #b2baa8;
+    box-shadow: 0 0 5px rgba(221, 223, 224, 0.3);
+}
+
+.btn-submit {
+    background-color: #b2baa8;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #949e88 ;
+}
+    

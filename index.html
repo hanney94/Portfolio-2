@@ -44,15 +44,8 @@
             <li class="nav-item">
                 <a class="nav-link" href="#section3">SKILLS</a>
               </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  PROJECTS
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                  <a class="dropdown-item" href="#">Action</a>
-                  <a class="dropdown-item" href="#">Another action</a>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </div>
+            <li class="nav-item">
+                <a class="nav-link" href="#section4"> PROJECTS</a>
               </li>
             <li class="nav-item">
               <a class="nav-link" href="#">CONTACT</a>
@@ -69,7 +62,7 @@
     <div class="introduction">
         <h2 class="hello">HELLO, I'M HANNAH ALLAN</h2>
         <p class="info">I'm a Junior Frontend Developer who is currently learning all things about the Development World!</p>
-        <button class="project-button">PROJECTS</button>
+        <button class="project-button"><a class="sec3" href="#section3">PROJECT</a></button>
     </div>
 </section>
 
@@ -129,8 +122,60 @@
 
 <!--Projects-->
 <section id="section4" href="#section4">
+    <div class="projects">
+        <h2 class="projects-heading">PROJECTS</h2>
+    </div>
+    <div class="project-details">
+    <img class="laptop" src="/Users/hannahallan/Documents/Project-2/assets/smartmockups_m0wolpk9.jpg">
+    <h6 class="project-title">ABBA QUIZ</h6>
+    <p class="project-info">An interactive website that includes an <strong><span>ABBA Quiz</span></strong>. The website includes a Homepage,
+        Instructions page and the Quiz itself and also features a “Listen” page. The user has limited time to select
+        an answer and will receive a total score at the end.</p>
+        <button class="project-btn"><a class="proj" href="https://hanney94.github.io/Project2-Quiz/">TAKE ME THERE</a></button>
+</div>
+<div class="project-details">
+    <img class="laptop" src="/Users/hannahallan/Documents/Project-2/assets/smartmockups_m0wq2rkh.jpg">
+    <h6 class="project-title">E-COMMERCE MOCKUP</h6>
+    <p class="project-info">A challenge to replicate the <strong><span>E-commerce</span></strong> product page challenge on <a class="mentor" href="https://www.frontendmentor.io/challenges/ecommerce-product-page-UPsZ9MJp6">Frontend Mentor.</a></p>
+        <button class="project-btn"><a class="proj" href="https://hanney94.github.io/E-Commerce-Project-3/">TAKE ME THERE</a></button>
+</div>
+<div class="project-details">
+    <img class="laptop" src="/Users/hannahallan/Documents/Project-2/assets/smartmockups_m0wqi351.jpg">
+    <h6 class="project-title">RESULTS SUMMARY</h6>
+    <p class="project-info">A challenge to replicate the <strong><span>Results Summary</span></strong> challenge on <a class="mentor" href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV">Frontend Mentor.</a></p>
+        <button class="project-btn"><a class="proj" href="https://hanney94.github.io/Results-Summary/">TAKE ME THERE</a></button>
+</div>
+<div class="project-details">
+    <img class="laptop" src="/Users/hannahallan/Documents/Project-2/assets/smartmockups_m0wqoxrh.jpg">
+    <h6 class="project-title">QR CODE</h6>
+    <p class="project-info">A challenge to replicate a <strong><span>QR Code</span></strong> card challenge on <a class="mentor" href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H">Frontend Mentor.</a></p>
+        <button class="project-btn"><a class="proj" href="https://hanney94.github.io/Project2-Quiz/">TAKE ME THERE</a></button>
+</div>
+<p class="note">Further projects can be found on my <a class="github-link" href="https://github.com/hanney94">Github Profile</a></p>
+</section>
 
-
+<section id="section5" href="#section5">
+        <h2 class="contact">CONTACT ME</h2>
+        <form class="contact-form" action="your-server-endpoint" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+            </div>
+    
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+            </div>
+    
+            <button type="submit" class="btn-submit">Send Message</button>
+        </form>
+    </section>
+    
 
 </section>
 
