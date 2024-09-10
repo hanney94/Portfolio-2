@@ -8,11 +8,13 @@ html {
 
 .fa-solid{
     font-size: 2rem;
+    color: black;
 }
 
 nav.navbar.navbar-expand-lg.fixed-top{
     align-items: center;
     padding: 1.5rem;
+    background-color: white;
 }
 
 
@@ -24,32 +26,77 @@ nav.navbar.navbar-expand-lg.fixed-top{
 
 .nav-item {
     font-family: "Mukta", sans-serif;
+    font-size: 15px;
 }
 
-.nav-link {
-    padding: 1rem;
+.navbar-light .navbar-nav .nav-link {
 }
 
 .navbar-toggler {
-    border: none; 
+    border: none;
 }
 
-.fa-solid{
-    color: black;
-    font-size: 1rem;
+#section1 {
+    margin-top: 10rem;
 }
 
-.hero {
-    margin-top: 5rem;
+.introduction {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.background {
-    height: 100vh;
+.hello, .about {
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 800;
 }
 
-.logo {
-    height: 50%;
-    width: 50%;
+.info {
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.project-button {
+    background-color: #b2baa8;
+    color:white;
+    width:70%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+
+.project-button:hover{
+    cursor: pointer;
+    background-color:#949e88 ;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.about-info-details {
+    padding: 10px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
 }
 
 
