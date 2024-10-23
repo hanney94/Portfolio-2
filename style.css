@@ -241,59 +241,20 @@ span {
     margin-top: 6rem;
 }
 
-
-.contact-form {
-    display: flex;
+.socials {
     flex-direction: column;
-    gap: 1rem;
-    padding: 10px;
+    margin: 2rem;
+    font-size: 1.3rem;
+    color: #949e88;
 }
 
-.form-group {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-label {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-family: "Inter", sans-serif;
-
-}
-
-input, textarea {
-    padding: 0.75rem;
-    font-size: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 100%;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-}
-
-input:focus, textarea:focus {
-    outline: none;
-    border-color: #b2baa8;
-    box-shadow: 0 0 5px rgba(221, 223, 224, 0.3);
-}
-
-.btn-submit {
-    background-color: #b2baa8;
-    border-radius: 10px;
-    border: none;
-    padding: 10px;
-    box-shadow:0 5px 15px 0 rgba(0,0,0,0.15);
-    font-family: "Inter", sans-serif;
-    font-weight: 500;
+.social{
     text-decoration: none;
-    transition: background-color 0.3s ease;
-    color: white;
-    cursor: pointer;
+    color: black;
+    padding: 2rem;
 }
-
-.btn-submit:hover {
-    background-color: #949e88 ;
+.social:hover {
+    color:#949e88;
 }
     
 
@@ -322,4 +283,22 @@ input:focus, textarea:focus {
 
 .contact-form {
     padding: 50px;
+}
+}
+
+@media screen and (min-width : 1024px) {
+    .contact-form {
+        padding: 80px;
+        gap: 0.2rem;
+        margin: 5rem;
+    }
+
+    .laptop{
+    width: 50vw;
+    }
+
+    .project-btn{
+        width: 40%;
+    }
+
 }
