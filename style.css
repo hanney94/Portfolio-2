@@ -95,6 +95,11 @@ nav.navbar.navbar-expand-lg.fixed-top{
     margin-top: 15rem;
 }
 
+.about-info {
+    align-items: center;
+    text-align: center;
+}
+
 .about-me {
     display: flex;
     flex-direction: column;
